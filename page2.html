@@ -17,6 +17,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
+                    <li class="nav-link">
+                        <a class ="nav-link" href="index.html">Welcome Page</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="page1.html">About Me</a>
                     </li>
@@ -25,7 +28,6 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Welcome Page</a></li>
                     <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li> <!-- Scroll to Resume -->
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li> <!-- Scroll to Projects -->
                     <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/srikar-chunduri-3b005527a/" target="_blank">LinkedIn</a></li>
@@ -44,14 +46,14 @@
         <section id="resume" class="mb-5"> <!-- Added ID -->
             <h2 class="text-primary">Education</h2>
             <p><strong>University of California, Santa Cruz</strong> - B.S. in Computer Science (Class of 2026)</p>
-            <p><em>Dean’s Scholar | Current GPA: 3.48</em></p>
-            <p><strong>Relevant Courses:</strong> Data Structures, Algorithms, Machine Learning Basics, Computer Systems, Computer Networks, Programming in Python & C++</p>
+            <p><em>Dean’s Scholar | Current GPA: 3.29</em></p>
+            <p><strong>Relevant Courses:</strong> Data Structures, Algorithms, Machine Learning Basics, Computer Systems Design, Databae Management , Computer Networks, Programming in Python & C++</p>
         </section>
 
         <section class="mb-5">
             <h2 class="text-primary">Skills</h2>
             <ul>
-                <li>Programming: Python, C++, HTML</li>
+                <li>Programming: Python, C++, HTML, JavaScript</li>
                 <li>Data Analysis: Pandas, SQL, Statistical Modeling</li>
                 <li>Machine Learning: HuggingFace, AI Model Deployment</li>
                 <li>Software Development: GitHub, Flask</li>
@@ -60,27 +62,36 @@
 
         <section class="mb-5">
             <h2 class="text-primary">Work Experience</h2>
-            <div class="card p-3 mb-3">
-                <h5>Intern - ALYSS Edusolutions (July 2024 - September 2024)</h5>
-                <p>Developed an AI chatbot to explain STEM concepts for robotics education. Used HuggingFace models to generate relevant responses and engineered prompts for effective user interaction.</p>
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/chatbot_result.png" class="card-img-top" alt="AI Chatbot Screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title">Intern - ALYSS Edusolutions</h5>
+                        <p class="card-text">
+                            Developed an AI chatbot to explain STEM concepts for robotics education. 
+                            Used HuggingFace models to generate relevant responses and engineered prompts 
+                            for effective user interaction.
+                        </p>
+                    </div>
+                </div>
             </div>
-
-            <div class="card p-3 mb-3">
-                <h5>Research Assistant - IIT Kharagpur (June 2021 - August 2021)</h5>
-                <p>Worked on simulations in Carla to optimize road traffic and headlights for accident reduction using Python.</p>
-            </div>
-
-            <div class="card p-3">
-                <h5>Fundraiser - Habitat for Humanity (March 2021 - December 2021)</h5>
-                <p>Raised over $800 for COVID relief, organizing donations for food and water distribution across India.</p>
-            </div>
+            
         </section>
 
         <section id="projects" class="mb-5"> <!-- Added ID -->
             <h2 class="text-primary">Projects</h2>
             <div class="card p-3 mb-3">
+                <h5>Air Quality Data Analysis</h5>
+                <p></p>
+            </div>
+            <div class="card p-3 mb-3">
                 <h5>ALYSS Edusolutions Chatbot</h5>
                 <p>Built a chatbot using HuggingFace’s Mistral-7B model to answer STEM-related queries in a structured manner.</p>
+            </div>
+
+            <div class="card p-3 mb-3">
+                <h5>Air Quality Data Analysis Research Paper</h5>
+                <p></p>
             </div>
 
             <div class="card p-3 mb-3">
