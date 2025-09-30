@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class ="nav-link" href="index.html">Welcome Page</a>
+                        <a class="nav-link" href="index.html">Welcome Page</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="page1.html">About Me</a>
@@ -28,6 +28,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Welcome Page</a></li>
                     <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li> <!-- Scroll to Resume -->
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li> <!-- Scroll to Projects -->
                     <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/srikar-chunduri-3b005527a/" target="_blank">LinkedIn</a></li>
@@ -53,51 +54,75 @@
         <section class="mb-5">
             <h2 class="text-primary">Skills</h2>
             <ul>
-                <li>Programming: Python, C++, HTML, JavaScript</li>
+                <li>Programming: Python, C, C++, HTML, JavaScript</li>
                 <li>Data Analysis: Pandas, SQL, Statistical Modeling</li>
-                <li>Machine Learning: HuggingFace, AI Model Deployment</li>
-                <li>Software Development: GitHub, Flask</li>
+                <li>Machine Learning: Google Colab, Tensorflow, HuggingFace, AI Model Deployment</li>
+                <li>Software Development: GitHub, Flask, React</li>
             </ul>
         </section>
 
         <section class="mb-5">
             <h2 class="text-primary">Work Experience</h2>
-            <div class="col-md-6 mb-4">
-                <div class="card shadow-sm h-100">
-                    <img src="images/chatbot_result.png" class="card-img-top" alt="AI Chatbot Screenshot">
-                    <div class="card-body">
-                        <h5 class="card-title">Intern - ALYSS Edusolutions</h5>
-                        <p class="card-text">
-                            Developed an AI chatbot to explain STEM concepts for robotics education. 
-                            Used HuggingFace models to generate relevant responses and engineered prompts 
-                            for effective user interaction.
-                        </p>
-                    </div>
-                </div>
+
+            <div class="card p-3 mb-3">
+                <h5>Data Analyst - University Of California, Santa Cruz (July 2025 - Present)</h5>
+                <p>Performing data analysis on pollution readings (a year's worth) gathered from the town of Stratford, CA, comparing it the the pollution levels and trends of other cities such as Watsonville. Currently finding temporal and general trends of pollution levels in Watsonville and comparing them to Stratford.</p>
             </div>
-            
+            <div class="card p-3 mb-3">
+                <h5>Intern - ALYSS Edusolutions (July 2024 - September 2024)</h5>
+                <p>Developed an AI chatbot to explain STEM concepts for robotics education. Worked with a team, doing and testing responses with various models (using HuggingFace) to generate relevant responses and engineered prompts for effective user interaction.</p>
+            </div>
+
+            <div class="card p-3 mb-3">
+                <h5>Research Assistant - IIT Kharagpur (June 2021 - August 2021)</h5>
+                <p>Worked on simulations in Carla to optimize road traffic and headlights for accident reduction using Python.</p>
+            </div>
+
+            <div class="card p-3">
+                <h5>Fundraiser - Habitat for Humanity (March 2021 - December 2021)</h5>
+                <p>Raised over $800 for COVID relief, organizing donations for food and water distribution across India.</p>
+            </div>
         </section>
 
         <section id="projects" class="mb-5"> <!-- Added ID -->
             <h2 class="text-primary">Projects</h2>
-            <div class="card p-3 mb-3">
-                <h5>Air Quality Data Analysis</h5>
-                <p></p>
-            </div>
-            <div class="card p-3 mb-3">
-                <h5>ALYSS Edusolutions Chatbot</h5>
-                <p>Built a chatbot using HuggingFace’s Mistral-7B model to answer STEM-related queries in a structured manner.</p>
-            </div>
 
-            <div class="card p-3 mb-3">
-                <h5>Air Quality Data Analysis Research Paper</h5>
-                <p></p>
-            </div>
+            <div class="row">
+                <div class = "col-md-6 mb-4">
+                    <div class = "card shadow-sm h-100">
+                        <img src = "Air_quality_4.jpg" class="card-img-top" alt="Air Quality Collage">
+                        <div class="card-body">
+                            <h5 class="card-title">Air Quality Research Paper</h5>
+                            <p class = "card-text">
+                                Analyzing multi sensor datasets for temporal and general patterns in pollution levels in Stratford California. Using IQR and standard deviaation, I implemented an outlier detection method to remove outliers, and then generated scatterplots, and boxplots to identify the pollution trends on weekly basis, monthly basis, and daily basis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="card p-3 mb-3">
-                <h5>Machine Learning Model Comparison</h5>
-                <p>Analyzed 1300+ data points to compare Logistic Regression, K-Nearest Neighbors, and Random Forest classifiers, concluding that Random Forest was the most accurate.</p>
-            </div>
+                <div class = "col-md-6 mb-4">
+                    <div class = "card shadow-sm h-100">
+                        <img src = "ALYSS chatbot response.jpg" class="card-img-top" alt="Chatbot_prompt_response">
+                        <div class="card-body">
+                            <h5 class="card-title">STEM and Robotics Chatbot</h5>
+                            <p class = "card-text">
+                                Started the development a chatbot the company could use to help their users navigate STEM-based concepts and robotics missions. Involved researching and looking through different AI models and the type of responses they returned. Ultimately, the results were worth it, as we set on using multiple model prompts on 2 different AI models, and we were able to generate adequate responses to STEM/Robotics based queries.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 mb-4">
+                    <div class = "card shadow-sm h-100">
+                        <img src = "ML_paper4.jpg" class="card-img-top" alt="ML Paper">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Learning Model Comparison</h5>
+                            <p class = "card-text">
+                                Analyzed 1300+ data points to compare Logistic Regression, K-Nearest Neighbors, and Random Forest classifiers, concluding that Random Forest was the most accurate model for our data points.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
             <div class="card p-3">
                 <h5>Personal Website</h5>
